@@ -87,3 +87,5 @@ Open Jenkins Web View -> Preview on port 8080
 -> Jenkins -> New Item -> Name : valkyrie-app -> Pipeline -> OK
 
 -> Pipeline -> Script: Pipeline script from SCM -> SCM: Git
+-> Repository URL: {Url from previous command} -> Credentials: {Project id}
+
