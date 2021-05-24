@@ -24,3 +24,7 @@ docker run -p 8080:8080 valkyrie-app:v0.0.1 &
 cd ..
 cd marking
 ./step2.sh
+
+#####################################################################################################################################################
+Task - 3 : Push the Docker image in the Google Container Repository
+
