@@ -90,4 +90,5 @@ Open Jenkins Web View -> Preview on port 8080
 -> Repository URL: {Url from previous command} -> Credentials: {Project id}
 -> Apply -> Save
 
+In cloud shell , run
 
