@@ -43,3 +43,6 @@ kubectl create -f k8s/deployment.yaml
 kubectl create -f k8s/service.yaml
 
 git merge origin/kurt-dev
+
+#############################################################################################################################
+Task - 5 : Increase the replicas from 1 to 3
