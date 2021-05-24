@@ -63,3 +63,6 @@ Press 'i' to edit and change image to "image: gcr.io/YOUR_PROJECT_ID/valkyrie-ap
  and run this
 docker ps
 
+#############################################################################################################################
+Task - 7 : Create a pipeline in Jenkins to deploy your app
+
