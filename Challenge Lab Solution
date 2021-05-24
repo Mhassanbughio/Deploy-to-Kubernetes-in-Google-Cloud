@@ -57,3 +57,9 @@ Task - 6 : Update the deployment with a new version of valkyrie-app
 docker build -t gcr.io/$GOOGLE_CLOUD_PROJECT/valkyrie-app:v0.0.2 .
 docker push gcr.io/$GOOGLE_CLOUD_PROJECT/valkyrie-app:v0.0.2
 kubectl edit deployment valkyrie-dev
+
+Press 'i' to edit and change image to "image: gcr.io/YOUR_PROJECT_ID/valkyrie-app:v0.0.2". Press "Esc" -> ":wq" -> Enter
+ 
+ and run this
+docker ps
+
