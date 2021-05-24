@@ -77,3 +77,5 @@ gcloud source repos list
 
 Open Jenkins Web View -> Preview on port 8080
 
+   Username : admin
+   Password : {Code output from previous command}
