@@ -74,3 +74,6 @@ kubectl port-forward $POD_NAME 8080:8080 >> /dev/null &
 printf $(kubectl get secret cd-jenkins -o jsonpath="{.data.jenkins-admin-password}" | base64 --decode);echo
 
 gcloud source repos list
+
+Open Jenkins Web View -> Preview on port 8080
+
