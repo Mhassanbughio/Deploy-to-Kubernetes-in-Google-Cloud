@@ -20,3 +20,7 @@ cd marking
 Task - 2 : Test the created Docker image
 cd ..
 cd valkyrie-app
+docker run -p 8080:8080 valkyrie-app:v0.0.1 &
+cd ..
+cd marking
+./step2.sh
