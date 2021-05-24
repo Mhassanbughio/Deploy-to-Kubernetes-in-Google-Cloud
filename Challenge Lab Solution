@@ -101,3 +101,5 @@ git add .
 git commit -m "built pipeline init"
 git push
 
+In Jenkins click Build and wait to get score.
+Congratulations, you're all done with the lab 😄
