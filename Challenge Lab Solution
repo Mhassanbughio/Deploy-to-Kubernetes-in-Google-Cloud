@@ -79,3 +79,11 @@ Open Jenkins Web View -> Preview on port 8080
 
    Username : admin
    Password : {Code output from previous command}
+
+  Go through the following:
+
+-> Manage Jenkins -> Manage Credentials -> Global -> add credentials -> Kind: Google Service Account from metadata -> OK
+
+-> Jenkins -> New Item -> Name : valkyrie-app -> Pipeline -> OK
+
+-> Pipeline -> Script: Pipeline script from SCM -> SCM: Git
