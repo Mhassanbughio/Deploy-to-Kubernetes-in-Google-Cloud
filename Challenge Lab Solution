@@ -54,3 +54,4 @@ Note Press "i" to get into insert mode and change 2 times in a same file checkou
 #############################################################################################################################
 Task - 6 : Update the deployment with a new version of valkyrie-app
 
+docker build -t gcr.io/$GOOGLE_CLOUD_PROJECT/valkyrie-app:v0.0.2 .
