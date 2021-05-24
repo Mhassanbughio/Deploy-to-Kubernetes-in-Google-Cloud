@@ -92,3 +92,8 @@ Open Jenkins Web View -> Preview on port 8080
 
 In cloud shell , run
 
+sed -i "s/green/orange/g" source/html.go
+
+sed -i "s/YOUR_PROJECT/$GOOGLE_CLOUD_PROJECT/g" Jenkinsfile
+git config --global user.email "you@example.com"              // Email
+
