@@ -51,3 +51,6 @@ kubectl edit deployment valkyrie-dev
 
 Note Press "i" to get into insert mode and change 2 times in a same file checkout the word "replicas"  and change from 1 to 3. Press "Esc" -> ":wq" -> Enter to exit Vim.
 
+#############################################################################################################################
+Task - 6 : Update the deployment with a new version of valkyrie-app
+
