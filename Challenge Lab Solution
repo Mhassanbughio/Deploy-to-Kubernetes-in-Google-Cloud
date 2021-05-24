@@ -98,5 +98,6 @@ sed -i "s/YOUR_PROJECT/$GOOGLE_CLOUD_PROJECT/g" Jenkinsfile
 git config --global user.email "you@example.com"              // Email
 git config --global user.name "student..."                       // Username
 git add .
-
+git commit -m "built pipeline init"
+git push
 
