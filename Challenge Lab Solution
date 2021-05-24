@@ -49,3 +49,5 @@ Task - 5 : Increase the replicas from 1 to 3
 
 kubectl edit deployment valkyrie-dev
 
+Note Press "i" to get into insert mode and change 2 times in a same file checkout the word "replicas"  and change from 1 to 3. Press "Esc" -> ":wq" -> Enter to exit Vim.
+
