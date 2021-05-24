@@ -9,5 +9,10 @@ FROM golang:1.10
 WORKDIR /go/src/app
 COPY source .
 RUN go install -v
-
+ENTRYPOINT ["app","-single=true","-port=8080"]
+EOF
+docker build -t valkyrie-app:v0.0.1 .
+cd ..
+cd marking
+./step1.sh
 
